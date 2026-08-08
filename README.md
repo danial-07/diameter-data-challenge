@@ -30,7 +30,11 @@ is used in the official inventory report:
 
 - **Outlier detection:** Interquartile Range (IQR) criterion, applied per plot
   (more robust than z-score given the small sample size per plot, n = 32–41)
-- **Diameter classes:** Sturges' rule (`k = 1 + 3.322·log10(n)`)
+- **Diameter classes:** class width = standard deviation of the group (plot or
+  stand); number of classes = range (max − min) ÷ standard deviation, rounded up.
+  Applied separately to each plot's own data and to the stand as a whole, per the
+  assignment's instruction to use each group's "respective standard deviation
+  together with the range."
 - **Plot area:** deduced from the maximum trees observed per row (7) implying a
   nominal 7×7 planting grid at 3×3 m spacing = 441 m² per plot
 - Full rationale and assumptions are documented in [`report/short_report.md`](report/short_report.md)

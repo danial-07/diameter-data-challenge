@@ -78,6 +78,28 @@ that stands out most in the quality audit (Section 4). There is no sign of
 within the same plot), consistent with the stand being a uniform planting — same
 clone, same age.
 
+## 5b. Diameter class distribution (method: SD as class width, range for class count)
+
+Following the assignment's instruction to use each group's own standard deviation
+together with the range (amplitude) to build the diameter classes (rather than a
+generic rule like Sturges'), class width was set equal to each group's standard
+deviation, and the number of classes was obtained by dividing the range by that
+width.
+
+| Group | Std. dev. (class width, cm) | Range (cm) | Number of classes |
+|---|---|---|---|
+| Plot 1 | 3.11 | 12.75 | 5 |
+| Plot 2 | 3.15 | 11.94 | 4 |
+| Plot 3 | 2.58 | 10.35 | 5 |
+| Plot 4 | 2.33 | 10.45 | 5 |
+| Plot 5 | 3.19 | 13.70 | 5 |
+| Plot 6 | 3.19 | 14.35 | 5 |
+| **Stand (overall)** | **2.96** | **17.04** | **6** |
+
+Full frequency tables (absolute and cumulative, in counts and %) for every plot and
+for the whole stand are in `outputs/Q2_diameter_classes.xlsx` (one sheet per plot,
+plus a "Stand_overall" sheet).
+
 ## 6. Estimate for the full stand (48.7 ha)
 
 Expanding the density observed in the sample (215 trees in 0.2646 ha) to the full
